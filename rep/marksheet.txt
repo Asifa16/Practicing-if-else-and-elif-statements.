@@ -1,0 +1,16 @@
+eng=int(input("enter marks of the first subject: "))
+pst=int(input("enter marks of the second subject: "))
+sindhi=int(input("enter marks of the third subject: "))
+bio=int(input("enter marks of the fourth subject: "))
+chm=int(input("enter marks of the fifth subject: "))
+avg=(eng+pst+sindhi+bio+chm)*100/425
+if avg>=80 :
+    print("Grade: A+")
+elif avg>=70 :
+    print("Grade: A")
+elif avg>=60 :
+    print("Grade: B")
+elif avg>=50 :
+    print("Grade: C")
+else:
+    print("Grade: F")
